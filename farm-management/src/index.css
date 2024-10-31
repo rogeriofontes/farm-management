@@ -1,0 +1,33 @@
+:root {
+  --primary-color: #4CAF50;
+  --secondary-color: #FFA726;
+  --background-color: #f4f4f9;
+  --text-color: #333;
+  --border-radius: 8px;
+  --font-family: 'Arial', sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+}
+
+h1, h2, h3 {
+  color: var(--primary-color);
+}
+
+button {
+  font-family: var(--font-family);
+  border-radius: var(--border-radius);
+  padding: 8px 12px;
+  cursor: pointer;
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+}
+
+button:hover {
+  background-color: var(--secondary-color);
+}
